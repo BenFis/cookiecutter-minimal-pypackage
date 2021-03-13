@@ -29,3 +29,8 @@ Create a new GitHub repo (e.g. torch_helper_toolbox) and push the folder to it:
 Install it as development package:
 
     pip install -e ./package-name
+
+Use magic to use the development package with Jupyter Notebooks:
+
+    %load_ext autoreload
+    %autoreload 2
